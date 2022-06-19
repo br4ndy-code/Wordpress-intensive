@@ -331,4 +331,61 @@ footer .border{
     .simple .title_big:before, .simple .title_big:after{
         width: 230px;
     }
+    .waiting_item{
+        width: 300px;
+    }
+    .gift_text{
+        font-size: 25px;
+        line-height: 37px;
+
+    }
+    .first_title{
+        font-size: 28px;
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        width: 720px;
+    }
+    .promo .promo_text{
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .promo  .promo_btn{
+        width: 285px;
+        height: 65px;
+        font-size: 17px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .simple .title_big{
+        font-size: 45px;
+    }
+    .simple .title_big:before, .simple .title_big:after{
+        width: 180px;
+    }
+    .waiting{
+        min-height: 514px;
+        padding: 52px 0 0px 0;
+    }
+    .waiting_item{
+        width: 220px;
+    }
+    .waiting_descr{
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 20px
+    }
+    .gift_text{
+        font-size: 25px;
+        line-height: 37px;
+
+    }
+    .first_title{
+        font-size: 28px;
+    }
+    .optimization_text{
+        width: 100%;
+    }
 }
